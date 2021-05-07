@@ -37,10 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    << << << < HEAD
-    == == == =
     'rest_framework',
-    >>>>>> > refs/remotes/origin/master
 ]
 
 MIDDLEWARE = [
@@ -58,11 +55,7 @@ ROOT_URLCONF = 'web_core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        << << << < HEAD
-        'DIRS': [],
-        == == == =
         'DIRS': ["templates"],
-        >>>>>> > refs/remotes/origin/master
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
