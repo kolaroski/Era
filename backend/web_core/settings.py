@@ -10,6 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+<<<<<<< HEAD
+=======
+import os
+>>>>>>> refs/remotes/origin/master
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -37,6 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
+=======
+    'rest_framework',
+>>>>>>> refs/remotes/origin/master
 ]
 
 MIDDLEWARE = [
@@ -54,7 +62,11 @@ ROOT_URLCONF = 'web_core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< HEAD
         'DIRS': [],
+=======
+        'DIRS': ["templates"],
+>>>>>>> refs/remotes/origin/master
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
