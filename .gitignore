@@ -2,10 +2,7 @@ venv
 .vscode
 *.sqlite3
 *.pyc
-<<<<<<< HEAD
-__pycache__
-=======
 __pycache__
 node_modules
 typings
->>>>>>> refs/remotes/origin/master
+.env
